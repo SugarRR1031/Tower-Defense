@@ -3,7 +3,9 @@ using UnityEngine;
 public class playerBase : MonoBehaviour
 {
 
-    public float health = 0f;
+    public int health = 0;
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
